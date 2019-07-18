@@ -46,6 +46,7 @@ li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #FCE0A5;
+    padding-bottom: 5px;
 }
 .SMLink {
     margin: 0 5px;
@@ -67,4 +68,5 @@ p {
     font-size: 20px;
     max-width: 500px;
     margin-top: 50px;
+    line-height: 1.5;
 }
