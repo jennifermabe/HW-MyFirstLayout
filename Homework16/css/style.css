@@ -22,6 +22,7 @@ body {
 .content {
     grid-area: content;
     padding-top: 30px;
+    padding-left: 10px;
     }
 .left {
     max-width: 250px;
@@ -54,11 +55,10 @@ li {
 .smimage {
     width: 50px;
 }
-#LinkedIn {
-    margin-left: 10px;
-}
 #Name {
     max-width: 500px;
+    width: 100%;
+    height: auto;
     margin-top: 50px;
 }
 p {
@@ -67,6 +67,73 @@ p {
     color: #FCE0A5;
     font-size: 20px;
     max-width: 500px;
+    width: 100%;
     margin-top: 50px;
     line-height: 1.5;
+}
+.mobile {
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    .grid {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        text-align: center;
+    }
+    body {
+        background-image: url("../images/GreenFeathers.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 0;
+        padding-top: 20px;
+       }
+    #PhotoJennifer {
+        width: 200px;
+        margin: 0px;
+    }
+    ul {
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto 20px auto;
+    }
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: #FCE0A5;
+    }
+    li {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: #FCE0A5;
+        padding-bottom: 5px;
+        max-width: 250px;
+    }
+    .SMLink {
+        margin: 15px 5px;
+    }
+    .smimage {
+        width: 50px;
+    }
+    .links {
+        margin: 0 auto 20px auto;
+    }
+    #Name {
+        max-width: 300px;
+        margin-top: 0;
+    }
+    .paragraph {
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: #FCE0A5;
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
 }
