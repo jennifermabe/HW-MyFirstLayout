@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/GreenFeathers.png");
+    background-image: url("../images/GreenFeathersSmall.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -113,7 +113,7 @@ p {
         text-align: center;
     }
     body {
-        background-image: url("../images/GreenFeathers.png");
+        background-image: url("../images/GreenFeathersSmall.png");
         background-size: cover;
         background-repeat: no-repeat;
         margin-top: 0;
