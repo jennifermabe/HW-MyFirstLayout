@@ -143,9 +143,39 @@ p {
     .SMLink {
         margin: 15px 5px;
     }
-    .smimage {
+    #LinkedIn {
         width: 50px;
+        height: 50px;
+        display: inline-block;
+        background:transparent url('../images/GoldLinkedIn.png') center top no-repeat;
+        background-size: cover;
     }
+    #LinkedIn:hover {
+        background-image: url('../images/GoldLinkedIn2.png');
+        background-size: cover;
+     }
+     #behance {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background:transparent url('../images/GoldBehance.png') center top no-repeat;
+        background-size: cover;
+    }
+    #behance:hover {
+        background-image: url('../images/GoldBehance2.png');
+        background-size: cover;
+     }
+     #dribbble {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background:transparent url('../images/GoldDribbble.png') center top no-repeat;
+        background-size: cover;
+    }
+    #dribbble:hover {
+        background-image: url('../images/GoldDribbble2.png');
+        background-size: cover;
+     }
     .links {
         margin: 0 auto 20px auto;
     }
