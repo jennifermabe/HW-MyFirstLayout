@@ -59,10 +59,13 @@ li {
     display: inline-block;
     background:transparent url('../images/GoldLinkedIn.png') center top no-repeat;
     background-size: cover;
+    transition: all 0.3s ease;
+    transform: scale(1,1);
 }
 #LinkedIn:hover {
     background-image: url('../images/GoldLinkedIn2.png');
     background-size: cover;
+    transform: scale(1.2,1.2);
  }
  #behance {
     width: 50px;
@@ -71,10 +74,13 @@ li {
     display: inline-block;
     background:transparent url('../images/GoldBehance.png') center top no-repeat;
     background-size: cover;
+    transition: all 0.3s ease;
+    transform: scale(1,1);
 }
 #behance:hover {
     background-image: url('../images/GoldBehance2.png');
     background-size: cover;
+    transform: scale(1.2,1.2);
  }
  #dribbble {
     width: 50px;
@@ -83,10 +89,13 @@ li {
     display: inline-block;
     background:transparent url('../images/GoldDribbble.png') center top no-repeat;
     background-size: cover;
+    transition: all 0.3s ease;
+    transform: scale(1,1);
 }
 #dribbble:hover {
     background-image: url('../images/GoldDribbble2.png');
     background-size: cover;
+    transform: scale(1.2,1.2);
  }
 #Name {
     max-width: 500px;
@@ -150,6 +159,7 @@ p {
         display: inline-block;
         background:transparent url('../images/GoldLinkedIn.png') center top no-repeat;
         background-size: cover;
+        transition: all 0.3s ease;
     }
     #LinkedIn:hover {
         background-image: url('../images/GoldLinkedIn2.png');
@@ -162,6 +172,7 @@ p {
         display: inline-block;
         background:transparent url('../images/GoldBehance.png') center top no-repeat;
         background-size: cover;
+        transition: all 0.3s ease;
     }
     #behance:hover {
         background-image: url('../images/GoldBehance2.png');
@@ -174,6 +185,7 @@ p {
         display: inline-block;
         background:transparent url('../images/GoldDribbble.png') center top no-repeat;
         background-size: cover;
+        transition: all 0.3s ease;
     }
     #dribbble:hover {
         background-image: url('../images/GoldDribbble2.png');
